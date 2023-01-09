@@ -15,6 +15,16 @@
 .main {
     display: inline-flex;
 }
+p {
+    position: absolute;
+    display: block;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #4F4F4F;
+    Width: 561px;
+    Height: 108px;
+}
 .left-side {
     display: inline-block;
     width: 400px;
@@ -24,14 +34,22 @@
     font-size: 24px;
     line-height: 36px;
 }
+a {
+    position: absolute;
+    top: 72.72px;
+    left: 47.17px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .logo-img {
     height: 20.55px;
     width: 31.67px;
-    margin: 72.72px 19.17px 0 47.17px;
+    margin-right: 19.17px;
 }
-.logo {
-    text-decoration: none;
-    color: #FFFFFF;
+span {
+    position: absolute;
+    height: 36px;
+    width: 208px;
 }
 button {
     width: 300px;
@@ -43,7 +61,7 @@ button {
     color: #FFFFFF;
 }
 .signup {
-    margin: 149px 56px 30px 44px;
+    margin: 249px 56px 30px 44px;
 }
 .login {
     margin: 0 56px 0 44px;
@@ -56,27 +74,11 @@ button {
     top: 167px;
     left: 22px;;
 }
-.upper-span {
-    position: absolute;
-    display: block;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 54px;
-    color: #4F4F4F;
-    Width: 561px;
-    Height: 108px;
+.upper-p {
     top: 87px;
     left: 897px;
 }
-.lower-span {
-    position: absolute;
-    display: block;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 54px;
-    color: #4F4F4F;
-    Width: 561px;
-    Height: 108px;
+.lower-p {
     top: 734px;
     left: 475px;
 }
