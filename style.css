@@ -12,9 +12,9 @@
     margin: 0;
     font-family: 'Poppins',sans-serif;
 }
-.main {
+section {
     display: inline-flex;
-    height: 100hv;
+    height: 100vh;
 }
 p {
     position: absolute;
@@ -34,6 +34,12 @@ p {
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
+    vertical-align: bottom;
+}
+.right-side {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
 }
 a {
     position: absolute;
@@ -60,6 +66,7 @@ button {
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF;
+    border: none;
 }
 .signup {
     margin: 249px 56px 30px 44px;
